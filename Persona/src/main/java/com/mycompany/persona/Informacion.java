@@ -34,7 +34,6 @@ public class Informacion {
  Scanner scan = new Scanner(System.in);
  Scanner scaNum = new Scanner(System.in);      
  for(int i=0; i<personas.length; i++){
-   for(int j=0; j<personas.length; j++){
  while(!seguir){
  System.out.println("Ingresa tu Nombre");
  String nombre = scan.nextLine();
@@ -49,7 +48,6 @@ public class Informacion {
 personas[i] = new Persona(nombre,apellido,dpi,nit);
  if(SN.equals("Si") || SN.equals("si")){contador++;
  }else{break; 
- }
  }
   }
  }
